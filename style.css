@@ -85,7 +85,43 @@ dt{font-weight:bold}
 address,cite,var{font-style:italic}
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section{display:block}
+footer,hgroup,menu,nav,section{display:block}
+
+header {
+	margin: auto;
+}
+
+/*Hide Top Search*/
+#search { 
+	display: none; }
+
+/*Hide bottom search, recent comments and recent posts*/
+.xoxo {
+	display: none;
+}
+
+#header, #footer {
+	background-color: #5B76BE;
+	font-family: courier;
+	color: white;
+}
+
+#header a{
+	color: white;
+	font-family: courier;
+}
+
+#menu {
+	text-align: right;
+}
+
+#header {
+	background-image: url(http://localhost:10003/wp-content/uploads/2020/09/Alien-Girl-Logo.png);
+}
+
+#site-title {
+	background-image: url(http://localhost:10003/wp-content/uploads/2020/09/Alien-Girl-Logo.png);
+}
 
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 
